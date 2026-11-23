@@ -1,0 +1,20 @@
+SPDX-License-Identifier: GPL-3.0-or-later
+
+Numora — Free and Open Source Android Calculator
+Copyright (C) 2026 Numora Contributors
+
+This project is licensed under the GNU General Public License, Version 3.0 (GPL-3.0) or later.
+
+You are free to use, study, modify, and redistribute this software under the terms of the
+GNU General Public License v3.0 as published by the Free Software Foundation. Any derivative
+works distributed to others must also be licensed under the GPL-3.0.
+
+This software is provided as-is, without warranty of any kind, express or implied.
+
+Full official license text:
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+Note for GitHub publishing:
+To enable automatic GitHub license badge detection, you can replace this file with the
+official full GPL-3.0 text from https://www.gnu.org/licenses/gpl-3.0.txt or select
+"GNU General Public License v3.0" in GitHub's built-in license template picker.

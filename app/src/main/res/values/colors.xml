@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode: Teal, Mint & Deep Plum on Clean Alabaster -->
+    <color name="bg_canvas">#F1F2F4</color>
+    <color name="surface_top_pill">#E4E7EC</color>
+    <color name="surface_pill_active">#FFFFFF</color>
+
+    <color name="key_digit_bg">#FFFFFF</color>
+    <color name="key_digit_text">#262930</color>
+    <color name="key_digit_stroke">#C9CED6</color>
+
+    <!-- Soft mint-teal top utility/function keys: ( ) √ % ⌫ -->
+    <color name="key_func_bg">#B7E0DD</color>
+    <color name="key_func_text">#1F3534</color>
+
+    <!-- Vibrant cyan-teal Clear key: C -->
+    <color name="key_clear_bg">#08BDBA</color>
+    <color name="key_clear_text">#FFFFFF</color>
+
+    <!-- Soft mauve-plum operator keys: × ÷ − + -->
+    <color name="key_operator_bg">#C2B1C3</color>
+    <color name="key_operator_text">#2C1B2D</color>
+
+    <!-- Tall deep royal plum Equals key: = -->
+    <color name="key_equals_bg">#43093B</color>
+    <color name="key_equals_text">#FFFFFF</color>
+
+    <!-- Scientific drawer keys -->
+    <color name="key_sci_bg">#DCECEB</color>
+    <color name="key_sci_text">#1E3534</color>
+    <color name="key_sci_stroke">#CAE0DF</color>
+    <color name="key_sci_active_bg">#08BDBA</color>
+    <color name="key_sci_active_text">#FFFFFF</color>
+
+    <color name="text_primary">#22252A</color>
+    <color name="text_secondary">#8C9099</color>
+    <color name="text_accent">#069A98</color>
+    <color name="text_error">#C93333</color>
+
+    <color name="badge_bg">#E2E6EA</color>
+    <color name="badge_text">#2E343B</color>
+
+    <color name="ripple_subtle">#1A000000</color>
+    <color name="ripple_accent">#33FFFFFF</color>
+
+    <color name="sheet_bg">#F7F8FA</color>
+    <color name="sheet_card_bg">#FFFFFF</color>
+    <color name="divider_subtle">#DCDEE4</color>
+</resources>

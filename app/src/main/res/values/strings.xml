@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Numora</string>
+
+    <!-- Mode & Controls -->
+    <string name="mode_basic">Basic</string>
+    <string name="mode_scientific">Scientific</string>
+    <string name="angle_deg">DEG</string>
+    <string name="angle_rad">RAD</string>
+    <string name="badge_inv">2ND</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="cd_history">Calculation history</string>
+    <string name="cd_toggle_theme">Switch light or dark theme</string>
+    <string name="cd_toggle_angle">Toggle degrees or radians</string>
+    <string name="cd_copy_result">Tap to copy result</string>
+    <string name="cd_clear_all">All clear</string>
+    <string name="cd_backspace">Delete last character</string>
+    <string name="cd_percent">Percent</string>
+    <string name="cd_divide">Divide</string>
+    <string name="cd_multiply">Multiply</string>
+    <string name="cd_subtract">Subtract</string>
+    <string name="cd_add">Add</string>
+    <string name="cd_equals">Equals</string>
+    <string name="cd_negate">Toggle positive or negative</string>
+    <string name="cd_decimal">Decimal point</string>
+    <string name="cd_inv">Toggle inverse scientific functions</string>
+    <string name="cd_sin">Sine</string>
+    <string name="cd_cos">Cosine</string>
+    <string name="cd_tan">Tangent</string>
+    <string name="cd_asin">Inverse sine</string>
+    <string name="cd_acos">Inverse cosine</string>
+    <string name="cd_atan">Inverse tangent</string>
+    <string name="cd_log">Base 10 logarithm</string>
+    <string name="cd_ln">Natural logarithm</string>
+    <string name="cd_pow10">Ten to the power of x</string>
+    <string name="cd_exp">Euler number e to the power of x</string>
+    <string name="cd_sqrt">Square root</string>
+    <string name="cd_square">Square</string>
+    <string name="cd_power">Exponentiation x to the power of y</string>
+    <string name="cd_pi">Pi constant</string>
+    <string name="cd_euler">Euler number e</string>
+    <string name="cd_open_paren">Open parenthesis</string>
+    <string name="cd_close_paren">Close parenthesis</string>
+    <string name="cd_factorial">Factorial</string>
+    <string name="cd_ans">Previous answer</string>
+
+    <!-- History & Feedback -->
+    <string name="history_title">Calculation History</string>
+    <string name="history_clear">Clear All</string>
+    <string name="history_empty_title">No calculations yet</string>
+    <string name="history_empty_subtitle">Your recent basic and scientific calculations will appear here. Tap any entry to reuse it.</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="copied_to_clipboard">Copied %1$s</string>
+    <string name="clear_history_dialog_title">Clear history?</string>
+    <string name="clear_history_dialog_message">This will remove all saved calculations from this device.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+
+    <!-- Error messages -->
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+    <string name="error_domain">Domain error</string>
+    <string name="error_overflow">Value out of range</string>
+    <string name="error_syntax">Invalid expression</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_calculator">Calculator</string>
+    <string name="tab_converter">Converter</string>
+    <string name="tab_age">Age</string>
+
+    <!-- Unit Converter -->
+    <string name="converter_from">From</string>
+    <string name="converter_to">To</string>
+    <string name="converter_swap">Swap units</string>
+    <string name="converter_select_unit">Select unit</string>
+    <string name="cat_length">Length</string>
+    <string name="cat_weight">Weight</string>
+    <string name="cat_temperature">Temp</string>
+    <string name="cat_area">Area</string>
+    <string name="cat_volume">Volume</string>
+    <string name="cat_speed">Speed</string>
+    <string name="cat_time">Time</string>
+    <string name="cat_data">Data</string>
+
+    <!-- Age Calculator -->
+    <string name="age_dob_label">Date of Birth</string>
+    <string name="age_target_label">Age at Date</string>
+    <string name="age_reset_today">Today</string>
+    <string name="age_your_age">Exact Age</string>
+    <string name="age_years">Years</string>
+    <string name="age_months">Months</string>
+    <string name="age_days">Days</string>
+    <string name="age_born_on">Born on %1$s</string>
+    <string name="age_next_birthday">Next Birthday</string>
+    <string name="age_birthday_today">Happy Birthday! It is today</string>
+    <string name="age_birthday_countdown">%1$d mo, %2$d days left</string>
+    <string name="age_birthday_days_only">%1$d days left</string>
+    <string name="age_birthday_weekday">Falls on %1$s</string>
+    <string name="age_summary_title">Life Summary</string>
+    <string name="age_total_months">Total Months</string>
+    <string name="age_total_weeks">Total Weeks</string>
+    <string name="age_total_days">Total Days</string>
+    <string name="age_total_hours">Total Hours</string>
+    <string name="age_total_minutes">Total Minutes</string>
+    <string name="age_invalid_range">Date of birth must be on or before the target date.</string>
+    <string name="picker_day">Day</string>
+    <string name="picker_month">Month</string>
+    <string name="picker_year">Year</string>
+    <string name="action_done">Done</string>
+</resources>

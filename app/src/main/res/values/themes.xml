@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calco" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/key_clear_bg</item>
+        <item name="colorOnPrimary">@color/key_clear_text</item>
+        <item name="colorSecondary">@color/key_equals_bg</item>
+        <item name="colorSurface">@color/bg_canvas</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@color/bg_canvas</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Calco.BottomSheetDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.Calco.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Calco.BottomSheet</item>
+    </style>
+
+    <style name="Widget.Calco.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/sheet_bg</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Calco.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearance.Calco.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">26dp</item>
+        <item name="cornerSizeTopRight">26dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- Reference-Matched Rounded Tile Button Styles -->
+    <style name="Widget.Calco.Key.Base" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="rippleColor">@color/ripple_subtle</item>
+    </style>
+
+    <style name="Widget.Calco.Key.Digit" parent="Widget.Calco.Key.Base">
+        <item name="backgroundTint">@color/key_digit_bg</item>
+        <item name="android:textColor">@color/key_digit_text</item>
+        <item name="strokeColor">@color/key_digit_stroke</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Widget.Calco.Key.Func" parent="Widget.Calco.Key.Base">
+        <item name="backgroundTint">@color/key_func_bg</item>
+        <item name="android:textColor">@color/key_func_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.Calco.Key.Clear" parent="Widget.Calco.Key.Base">
+        <item name="backgroundTint">@color/key_clear_bg</item>
+        <item name="android:textColor">@color/key_clear_text</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/ripple_accent</item>
+    </style>
+
+    <style name="Widget.Calco.Key.Operator" parent="Widget.Calco.Key.Base">
+        <item name="backgroundTint">@color/key_operator_bg</item>
+        <item name="android:textColor">@color/key_operator_text</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Widget.Calco.Key.Equals" parent="Widget.Calco.Key.Base">
+        <item name="backgroundTint">@color/key_equals_bg</item>
+        <item name="android:textColor">@color/key_equals_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/ripple_accent</item>
+    </style>
+
+    <style name="Widget.Calco.Key.Scientific" parent="Widget.Calco.Key.Base">
+        <item name="backgroundTint">@color/key_sci_bg</item>
+        <item name="android:textColor">@color/key_sci_text</item>
+        <item name="strokeColor">@color/key_sci_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">11dp</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

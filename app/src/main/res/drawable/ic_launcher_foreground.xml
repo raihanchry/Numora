@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Scaled 512x512 Numora 4-tile artwork centered cleanly within the 66dp adaptive safe zone -->
+    <group
+        android:scaleX="0.138"
+        android:scaleY="0.138"
+        android:translateX="18.672"
+        android:translateY="18.672">
+
+        <!-- Top-Left Tile (+): Teal #0BBFB5 (x=78, y=78, w=168, h=168, rx=40) -->
+        <path
+            android:fillColor="#0BBFB5"
+            android:pathData="M118,78 L206,78 A40,40 0 0,1 246,118 L246,206 A40,40 0 0,1 206,246 L118,246 A40,40 0 0,1 78,206 L78,118 A40,40 0 0,1 118,78 Z" />
+
+        <!-- Top-Right Tile (−): Soft Mint #B8E0DA (x=266, y=78, w=168, h=168, rx=40) -->
+        <path
+            android:fillColor="#B8E0DA"
+            android:pathData="M306,78 L394,78 A40,40 0 0,1 434,118 L434,206 A40,40 0 0,1 394,246 L306,246 A40,40 0 0,1 266,206 L266,118 A40,40 0 0,1 306,78 Z" />
+
+        <!-- Bottom-Left Tile (×): Soft Mauve #C3B1C5 (x=78, y=266, w=168, h=168, rx=40) -->
+        <path
+            android:fillColor="#C3B1C5"
+            android:pathData="M118,266 L206,266 A40,40 0 0,1 246,306 L246,394 A40,40 0 0,1 206,434 L118,434 A40,40 0 0,1 78,394 L78,306 A40,40 0 0,1 118,266 Z" />
+
+        <!-- Bottom-Right Tile (÷): Deep Plum #440A3B (x=266, y=266, w=168, h=168, rx=40) -->
+        <path
+            android:fillColor="#440A3B"
+            android:pathData="M306,266 L394,266 A40,40 0 0,1 434,306 L434,394 A40,40 0 0,1 394,434 L306,434 A40,40 0 0,1 266,394 L266,306 A40,40 0 0,1 306,266 Z" />
+
+        <!-- White Plus (+) -->
+        <path
+            android:pathData="M124,162 L200,162 M162,124 L162,200"
+            android:strokeWidth="14"
+            android:strokeColor="#FFFFFF" />
+
+        <!-- Dark Plum Minus (−) -->
+        <path
+            android:pathData="M312,162 L388,162"
+            android:strokeWidth="14"
+            android:strokeColor="#440A3B" />
+
+        <!-- Dark Plum Multiply (×) -->
+        <path
+            android:pathData="M134,322 L190,378 M190,322 L134,378"
+            android:strokeWidth="14"
+            android:strokeColor="#440A3B" />
+
+        <!-- White Divide (÷) Bar & Dots -->
+        <path
+            android:pathData="M312,350 L388,350"
+            android:strokeWidth="14"
+            android:strokeColor="#FFFFFF" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M350,310 A10,10 0 1,0 350,330 A10,10 0 1,0 350,310 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M350,370 A10,10 0 1,0 350,390 A10,10 0 1,0 350,370 Z" />
+    </group>
+</vector>

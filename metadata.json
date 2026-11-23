@@ -1,0 +1,6 @@
+{
+  "name": "Numora",
+  "description": "A precision scientific and basic calculator built in Java with live expression evaluation, history tape, and Material 3 design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
